@@ -25,11 +25,13 @@ export default function App() {
  }, [])
 
  const Friend = props => (
-   <div classname='friend' onClick={() => openDetails(props.info.id)}>
-     {props.info.name}
-     <button>Details</button>
-   </div>
- )
+  <div className='friend'>
+    {props.info.name}
+    <button onClick={() => openDetails(props.info.id)}>
+      See details
+    </button>
+  </div>
+)
 
  return (
    <div className='container'>
