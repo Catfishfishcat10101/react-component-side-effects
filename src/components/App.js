@@ -4,7 +4,6 @@ import React, { useState } from 'react'
 // 👉 TASK 2 - import the contants from constants/index.js
 
 import Details from './Details'
-import Friend from './Friend';
 
 export default function App() {
   const [friends, setFriends] = useState([])
